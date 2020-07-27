@@ -1,6 +1,6 @@
 public class Leetcode91 {
     public static void main(String[] args) {
-
+        //git test 1
     }
     public int numDecodings(String s) {
         //dp[i]记录的是前i个字符串共有多少种解码的可能
@@ -26,9 +26,10 @@ public class Leetcode91 {
                 if (s.charAt(i - 1) == '0') {
                     dp[i] = dp[i-2];
                 }else{
-                    if
+
                 }
             }
         }
+        return 2;
     }
 }
