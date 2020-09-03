@@ -1,3 +1,5 @@
+package leetcode;
+
 public class Leetcode91 {
     public static void main(String[] args) {
         //git test 0
@@ -31,5 +33,6 @@ public class Leetcode91 {
             }
         }
         return 2;
+        //试一试stash
     }
 }

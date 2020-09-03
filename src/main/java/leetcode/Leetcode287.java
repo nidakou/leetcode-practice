@@ -1,9 +1,11 @@
+package leetcode;
+
 public class Leetcode287 {
     public static void main(String[] args) {
         //二分法
 //        int[] nums = new int[]{2, 4, 5, 2, 3, 1, 6, 7};
         int[] nums = new int[]{3, 5, 6, 3, 4, 2, 7, 8};
-        System.out.println(findDuplicate(nums));
+        System.out.println(findDuplicate(nums  ));
         //纠结的点 数组中的数是从1开始的，会影响mid的值吗？
     }
     public static int findDuplicate(int[] nums) {
